@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Registraiton Form</h4>
+    <!-- GET and POST HTTP methods: used to send form data to a see -->
+     <form action="/action.php" method="post">
+        <input type="text" placeholder="username">
+        <br>
+        <br>
+        <input type="password" placeholder="password">
+        <br>
+        <!-- <lebel> tag: provides a description for form <input> element -->
+        <h5>Select your class</h5>
+        <label for="101">
+            <input type="radio" value="Class XI" name="class" id="101">Class XI<br>
+            
+        </label>
+        <label for="102">
+            <input type="radio" value="Class XII" name="class" id="102">Class XII<br>
+
+        </label>
+        <h5>Select Fav subject</h5>
+        <label for="phy">
+            <input type="checkbox" value="phy" name="subject" id="101">PHY
+        </label>
+        <br>
+        <label for="math">
+            <input type="checkbox" value="math" name="subject" id="102">MATH
+        </label>
+        <br>
+        <label for="che">
+            <input type="checkbox" value="chemestiry" name="subject" id="103">Chem
+        </label>
+        <!-- Drop down -->
+         <br>
+       <h4>Select your city</h4>
+       <select name="city">
+           <option value="Delhi">Delhi</option>
+           <option value="Pune">Pune</option>
+           <option value="Mumbai">Mumbai</option>
+       </select>
+       <br>
+       <h4>
+        Give the Feedback
+       </h4>
+       <textarea name="feedback" id="101" placeholder="give your valueval feedback" ></textarea>
+       <button type="submit">submit</button>
+       <!-- <button type="button">submit</button> -->
+       <input type="reset" value="reset">
+
+        
+     </form>
+</body>
+</html>

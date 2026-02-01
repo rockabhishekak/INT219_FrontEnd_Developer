@@ -1,0 +1,38 @@
+/* universal selector */
+*{
+    color: blue;
+}
+/* type selector */
+/* Element selector */
+h1{
+    color: green;
+}
+/* id selector  */
+#headingOne{
+    color: red;
+}
+#headingTwo{
+    color: purple;
+}
+/* class selector */
+.myClass{
+    color: orange;
+}
+/* attribute selector */
+input[type="text"]{
+    border: 2px solid black;
+}
+input[type="password"]{
+    border: 2px solid gray;
+}
+/* pseudo-class selector */
+a:hover{
+    color: pink;
+}
+a:visited{
+    color: brown;
+}
+/* descendant selector */
+div p{
+    font-size: 18px;
+}

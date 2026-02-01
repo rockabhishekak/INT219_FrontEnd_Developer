@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Institution Student Portal</h1>
+    <br>
+    <img src="/markerr.png" alt="Institution Logo" width="200" height="200">
+    <hr>
+    <hr>
+    <h2>Welcome Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/JhQ7xj_j8vo?si=eOhkc0hrpVboDhH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <hr>
+    <h2>Background Music</h2>
+    <audio controls>
+        <source src="/song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <hr>
+    <h2>Student Registration Form</h2>
+    <form action="/submit_registration" method="post">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter youer full name"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+        <label for="age" >Age:</label><br>
+        <input type="number" id="age" name="age" placeholder="Enter your age"><br><br>
+        <label for="Gender">Gender:</label><br>
+        <input type="radio" value="male" name="gender" id="male">Male<br>
+        <input type="radio" value="female" name="gender" id="female">Female<br>
+        <input type="radio" value="other" name="gender" id="other">Other<br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
