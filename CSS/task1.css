@@ -1,0 +1,24 @@
+.conter{
+    display: flex;
+    justify-items: flex-start;
+    background-color: black;
+    align-items: flex-start;
+    padding: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    align-content:stretch;
+
+    
+    
+}
+.item{
+    color: white;
+    margin: 10px;
+    
+}
+.my{
+    color: white;
+    margin: 10px ;
+    margin-right: 300px;
+
+}

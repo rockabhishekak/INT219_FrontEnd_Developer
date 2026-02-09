@@ -1,0 +1,13 @@
+/* Box model css */
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px;
+    border-style: solid;
+
+    text-align: left;
+    border-radius: 15px;
+    padding: 25px;
+
+}
