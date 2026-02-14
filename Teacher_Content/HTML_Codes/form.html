@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <header></header>
+
+    <main>
+    </main>
+    <h4>Registration Form</h4>
+    <!-- GET and POST HTTP methods : used to send form data to a server
+     GET sends form data through the URL and it is visible, while POST sends data in the request body and it is hidden, making POST more secure -->
+    <form action="/action.php" method="post"> 
+      
+      <!-- <input>: used to get data from the user -->
+      <input type="text" placeholder="username">
+      <br>
+      <br>
+      <input type="password" placeholder="password">
+      
+      <br>
+      <!-- <label> tag : provides a description for form <input> elements i.e. description for input field in a HTML form, 
+      linking via for or wrapping the input to improve usability and accessibility -->
+      <h5>Select your class</h5>
+      <label for="101">
+      <input type="radio" value="class XI" name="class" id="101">class XI
+      </label>
+      <br>
+      <label for="102">
+      <input type="radio" value="class XII" name="class" id="102">class XII
+      </label>
+      
+      <br>
+      <h5>Select Fav subjects</h5>
+      <label for="math">
+      <input type="checkbox" value="math" name="subject" id="101">Maths
+      </label>
+      <br>
+      <label for="phy">
+      <input type="checkbox" value="phy" name="subject" id="102">Physics
+      </label>
+      <br>
+      <label for="chem">
+      <input type="checkbox" value="chem" name="subject" id="103">Chemistry
+      </label>
+      <br>
+      <label for="cs">
+      <input type="checkbox" value="cs" name="subject" id="104">Computer Science
+      </label> 
+      
+      <br>
+      <br>
+      Select your city
+      <select name="city">
+        <!-- <option value="">Select your city</option> -->
+        <option value="Delhi">Delhi</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Pune">Pune</option>
+        <option value="Mumbai">Mumbai</option>
+      </select>
+
+      <br>
+      <br>
+      <textarea name="feedback" id="101" placeholder="please give your valuable feedback here" rows="5"></textarea>
+
+      <input type="submit" value="submit">
+
+    </form>
+
+    <footer></footer>
+</body>
+</html>

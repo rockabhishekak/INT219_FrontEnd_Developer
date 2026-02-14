@@ -1,0 +1,35 @@
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+    grid-template-rows: auto auto auto; /* 3 rows */
+    grid-template-areas:
+        "img1 img2"
+        "img3 img4"
+        "img5 img6";
+    gap: 15px;
+    padding:20px
+}
+
+/* Assign areas */
+.img1 { grid-area: img1; }
+.img2 { grid-area: img2; }
+.img3 { grid-area: img3; }
+.img4 { grid-area: img4; }
+.img5 { grid-area: img5; }
+.img6 { grid-area: img6; }
+
+/* Item styling */
+.gallery .item{
+    width: auto;
+    height: auto;
+    border: 2px solid #333;   /* border added */
+    border-radius: 6px;
+    padding: 5px;             /* space between image and border */
+    box-sizing: border-box; /* prevents padding and borders from increasing element size i.e. includes padding and border inside the element’s width and height */
+}
+/* Images inside grid items */
+.gallery .item img {
+    width: 100%;              /* image fits grid cell */
+    height: auto;
+    display: block;           /* removes extra bottom space and image fully fills the grid cell width*/
+}

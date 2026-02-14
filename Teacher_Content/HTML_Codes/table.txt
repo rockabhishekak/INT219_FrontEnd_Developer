@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+   
+</head>
+<body>
+     <h1><b>student detail</b></h1>
+    <table border="1">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+            <th>Grade</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Alice</td>
+            <td>22</td>
+            <td>Los Angeles</td>
+            <td>A</td>
+           <!-- <td rowspan="2">A / B</td> -->
+        </tr>
+
+        <tr>
+            <td>John</td>
+            <td>25</td>
+            <td>Chicago</td>
+            <td>B</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="4" align="center">
+                End of Student Details
+            </td>
+        </tr>
+    </tfoot>
+
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <p id="one">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam consequatur cupiditate esse, animi placeat pariatur reprehenderit totam consequuntur, culpa repellat exercitationem deserunt a nihil. Explicabo sunt dolore tempore accusamus dolorem!
+    Alias necessitatibus, eum ipsam possimus dolor, corporis molestiae incidunt, vitae quibusdam dolorum porro quae placeat minus quas. Nobis culpa ex modi voluptatibus nisi quo alias, minus provident assumenda soluta magnam.</p>
+    <p id="two">parah2</p>
+    <p id="three">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi laboriosam provident voluptatibus assumenda aliquid ducimus saepe porro, ipsa fugiat quis dolor, itaque nam harum dolorem vero. Ratione repudiandae eveniet saepe!
+    Placeat perferendis hic consequuntur amet architecto quisquam excepturi, nostrum quod illo voluptas enim dolore quam voluptatem voluptates! Corrupti hic incidunt dicta minus eaque. Cupiditate repudiandae, veritatis totam voluptatum voluptate maiores!</p>
+</body>
+</html>

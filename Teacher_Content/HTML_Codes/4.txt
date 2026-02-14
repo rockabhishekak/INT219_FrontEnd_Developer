@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+     <a href="https://www.google.com/">Google</a>
+     <br>
+     <a href="/Hello.html">Go to Hello Page</a>
+
+     <img src="https://m.media-amazon.com/images/I/718vM+75UNL._AC_UF1000,1000_QL80_.jpg" alt="notebook" height="100" width="100">
+     <img src="notebook.jpg" alt="note" height="100" width="50">
+</body>
+</html>

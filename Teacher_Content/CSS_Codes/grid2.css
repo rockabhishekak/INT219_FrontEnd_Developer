@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  grid-template-areas: /* represents named areas in a grid, header & footer span both columns, menu on left, content on right */
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr; /* fraction of remaining space */
+  gap: 3px;
+  background-color: rgb(30, 255, 41);
+  padding: 5px;
+}
+/* Styles all direct child <div> */
+.container div {
+  background-color: white;
+  padding: 10px;
+}
+
+/* grid-area assigns a grid item to a named area in a CSS Grid layout */
+.container div.header {
+  grid-area: header; 
+  text-align: center;
+}
+.container div.menu {
+  grid-area: menu;
+}
+.container div.content {
+  grid-area: content; 
+}
+.container div.footer {
+  grid-area: footer;
+  text-align: center;  
+}

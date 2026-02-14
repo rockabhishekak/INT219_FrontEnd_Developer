@@ -1,0 +1,32 @@
+/* Universal Selector(*) */
+* {   
+    color:blue;
+}
+
+/* Element Selector(element) */
+h1{
+    color: green;
+}
+
+/* Id(means any unique name) Selector(#id) */ 
+#headingOne
+{
+    color:yellow;
+}
+
+#headingTwo
+{
+    color: chocolate;
+}  
+
+/* Class Selector(.class) */
+.myClass
+{
+    color: magenta;
+}
+
+/* Grouping Selector(element,element,..) */
+h2, h3
+{
+  color: red;
+}

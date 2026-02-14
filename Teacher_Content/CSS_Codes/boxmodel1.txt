@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enhanced Box Model Example</title>
+    <link rel="stylesheet" href="boxmodel1.css">
+</head>
+<body>
+
+    <div class="profile-card">
+        <img src="logo.png" alt="Profile Photo">
+
+        <h2>Riya Sharma</h2>
+        <p class="role">Web Technology Student</p>
+
+        <p class="desc">
+            Interested in HTML, CSS, and modern web layouts.
+        </p>
+
+        <button>View Profile</button>
+    </div>
+
+</body>
+</html>

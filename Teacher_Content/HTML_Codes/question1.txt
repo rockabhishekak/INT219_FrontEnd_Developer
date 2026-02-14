@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page - Albert Einstein</title>
+    <!-- <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header img {
+            width: 200px;
+            border-radius: 50%;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        h2 {
+            color: #34495e;
+        }
+
+        .highlight {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+
+        .section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 5px #ccc;
+        }
+
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+    </style> -->
+</head>
+<body>
+
+    <!-- Header with Image and Name -->
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Albert_Einstein_Head.jpg" alt="Albert Einstein" height="150">
+        <h1><span class="highlight">Albert Einstein</span></h1>
+        <p>German-born Theoretical Physicist and Nobel Laureate</p>
+    </header>
+
+    <!-- Life Section -->
+    <!--<div class="section">-->
+        <section>
+        <h2>Life</h2>
+        <p>
+            Albert Einstein was born on March 14, 1879, in Ulm, Germany.
+            He developed the theory of relativity and made groundbreaking contributions to physics.
+        </p>
+        </section>
+    <!--</div>-->
+
+    <!-- Achievements Section -->
+    <!-- <div class="section"> -->
+        <section>
+        <h2>Achievements</h2>
+        <ul>
+            <li>Developed the Theory of Relativity</li>
+            <li>Won the Nobel Prize in Physics (1921)</li>
+            <li>Published influential papers in quantum mechanics, photoelectric effect, and Brownian motion</li>
+</section>
+
+</body>
+</html>

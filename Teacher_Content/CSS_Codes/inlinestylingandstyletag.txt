@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <!-- <style> tag(Embedded Stylesheet) -->
+    <style>  
+        h1
+        {
+            color:red;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- Inline Stylesheet-->
+    <h1 style="color:blue">Hello in blue</h1>
+    <br>
+    <h1>Hello in red</h1> <!--color will automatically change to red due to style tag given in head tag-->
+     
+</body>
+</html>

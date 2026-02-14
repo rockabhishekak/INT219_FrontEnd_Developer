@@ -1,0 +1,36 @@
+div{
+    height: 100px;
+    width: 100px; /*square box will create with height and width specified*/
+    background-color: pink;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: brown; */
+    border: 2px solid brown;
+    text-align: left; /*it will change based on height and width specified*/
+    border-radius: 15px; /*round edges*/
+    /*border-radius: 50%; for creating circles set to 50% when height and width pixel are same*/
+    /* padding-left: 4px;
+    padding-right: 2px;
+    padding-bottom: 3px;
+    padding-top: 1px; */
+    /*padding: 1px 2px 3px 4px; top right bottom left (clockwise)*/
+    padding: 25px;
+    /* margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px; */
+    margin: 25px;
+
+
+}
+
+h1{
+    height: 50px;
+    width: 200px;
+    background-color:aquamarine;
+    /* border-width: 3px;
+    border-style: dashed;
+    border-color: black; */ 
+    border: 3px dashed black;
+    text-align: center; /*it will change based on height and width specified*/
+}

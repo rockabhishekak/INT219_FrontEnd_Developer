@@ -1,0 +1,11 @@
+#one{
+    font-size: 25px; /* 96px = 1 inch = 2.54 cm*/
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+#three{
+    font-size: 10px;
+    line-height:normal; /*no change by default normal line height will come*/
+    text-transform: capitalize;
+}

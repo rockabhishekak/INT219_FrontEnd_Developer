@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  background-color: rgb(255, 30, 165);
+  width: auto; /*size depends on content-width */
+  height: auto;
+  flex-direction: column;
+  flex-wrap:nowrap;
+  /* flex-flow: row nowrap; */
+  justify-content:flex-start; /* left, horizontal(main-axis) alignment of individual flex items */
+  align-items: flex-start; /* top, vertical(cross-axis) alignment of individual flex items */
+  align-content: stretch; /* doesn't work with nowrap bcoz it works for cross-axis(multiple flex lines only) */
+  padding: 10px;
+  border:2px solid black;
+}
+.item {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
+  width:100px;
+  height:50px;
+  border:solid black 1px;
+}

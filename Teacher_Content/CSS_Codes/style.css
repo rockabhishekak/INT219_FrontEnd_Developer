@@ -1,0 +1,41 @@
+p{
+    /* text-align: left/right; (used for simple, single-language pages) */ 
+    /* text-align: start/end; (used for multilingual websites)*/
+    text-align: center;
+    color:green;
+}
+
+#one{
+    font-family:arial;
+}
+
+#two{
+    font-family:'Segoe UI';
+}
+
+/* h1{
+     text-align: center;
+     text-decoration: blue wavy underline;
+     color:red;
+} */
+
+#h1{
+    font-weight: normal;
+    /* font-weight: 100; font-weight range is from 100-900 and bold value is set at 400 */
+}
+
+#h2{
+    font-weight: bold; /*no change bcoz by default heading is bold*/
+}
+
+#h3{
+    font-weight: lighter;
+}
+
+#h4{
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none; /*removes by default underline which comes when we click on the link*/
+}
