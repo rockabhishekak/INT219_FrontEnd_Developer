@@ -1,0 +1,23 @@
+div{
+    height: 100px;
+    width: 600px;
+    background-color: pink;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: blue; */
+    border: 5px solid blue;
+    padding: 100px;
+    margin: 10px 20px 30px 40px;
+    
+}
+h1{
+    border-width: 5px;
+    border-color: aqua;
+    border-style: dotted;
+    border-left: dashed green;
+    padding: 2px;
+}
+button{
+    border: solid pink;
+    border-radius: 5px;
+}
