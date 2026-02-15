@@ -1,0 +1,12 @@
+div{
+    background-color: yellow;
+}
+button{
+    background-color: inherit;
+}
+input{
+    background-color: inherit;
+}
+button:hover{
+    background-color: red;
+}
