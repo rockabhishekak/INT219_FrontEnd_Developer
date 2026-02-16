@@ -20,3 +20,10 @@
 #gre{
     background-color: green;
 }
+body{
+    margin: 0;
+    height: 100vh;              /* Full screen height */
+    display: flex;
+    justify-content: center;    /* Horizontal center */
+    align-items: center;        /* Vertical center */
+}
