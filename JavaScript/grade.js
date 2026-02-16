@@ -1,6 +1,6 @@
 let num = 68;
 let grade;
-if(num>=90 && num<=100{
+if(num>=90 && num<=100){
     grade = "O";
 }
 else if(num >= 80 && num <= 89)
