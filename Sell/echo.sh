@@ -28,7 +28,7 @@ display(){
 }
 while true
 do
-    echo "1.push , 2 pop 3 Display, 4 Exit"
+    echo "1.push , 2 pop, 3 Display, 4 Exit"
     read ch
     case $ch in 
     1)
@@ -46,3 +46,4 @@ do
     echo "invalid iput"
     esac
 done
+1
