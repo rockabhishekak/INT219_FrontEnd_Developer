@@ -24,6 +24,17 @@ console.log(resi);
 let stri3  = "hello";
 console.log(stri3.replace("l","m"));
 console.log(stri3.replaceAll("lo","p"));
+let str4="IloveJS";
+console.log(str4.charAt(4));
+let specialStirng = `This is a template literal`;
+console.log(specialStirng);
+let obj= {
+    item:"pen",
+    price:10
+}
+let output = `The coust of ${obj.item} is ${obj.price} ruppee`;
+console.log(output);
+
 
 
 // let str= "Hi";
