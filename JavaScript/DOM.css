@@ -1,17 +1,20 @@
-#heading{
+#head {
     color: blue;
     background-color: yellow;
 
 }
-.heading-class{
+
+.heading-class {
     color: red;
     background-color: green;
 
 }
-body{
+
+body {
     background-color: pink;
 }
-button{
+
+button {
     background-color: blue;
     color: white;
 }
