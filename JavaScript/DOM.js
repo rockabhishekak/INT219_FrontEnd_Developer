@@ -27,3 +27,12 @@ console.log(firstele);
 
 let allclasses = document.querySelectorAll(".heading-class"); //it will select all the elements with the class name "heading-class"
 console.log(allclasses);
+
+// properties - >1) tagName -> to get the tag name of the element
+// firstclass
+// firstclass.tagName
+
+// 2) innerText -> to get the text content of the element
+console.dir(document.body.firstChild)
+document.querySelector("div");
+console.log(document.querySelector("div").firstChild);
