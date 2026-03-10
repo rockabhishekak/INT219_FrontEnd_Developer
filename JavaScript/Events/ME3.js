@@ -51,3 +51,5 @@ toggleBtn2.addEventListener("click", () => {
         document.body.style.color = "black";
     }
 });
+
+

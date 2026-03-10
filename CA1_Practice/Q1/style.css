@@ -1,0 +1,55 @@
+body {
+    background-image: url(IMG-20260310-WA0009.jpg);
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.container {
+    display: flex;
+    margin-top: 50px;
+    /* height:100vh; *//
+
+
+}
+
+.left {
+    color: white;
+    width: 50%;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.right {
+    width: 50%;
+    background-color: beige;
+    align-items: center;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 0 5px;
+
+
+
+}
+
+input,
+textarea {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    background-color: black;
+    color: wheat;
+}
+
+.a {
+    width: 48%;
+    display: inline-block;
+}
