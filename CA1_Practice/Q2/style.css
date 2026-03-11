@@ -1,0 +1,63 @@
+body {
+    /* background-image: url(IMG-20260310-WA0008.jpg); */
+    background-color: black;
+    color: white;
+    background-size: cover;
+}
+
+.cantainer {
+
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px 10px;
+
+}
+
+.left {
+
+    width: 50%;
+    margin-left: 10px;
+
+}
+
+.right {
+    color: black;
+    background-color: white;
+    width: 50%;
+    padding: 20px;
+    margin-right: 10px;
+
+
+}
+
+input,
+textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid gray;
+    margin-bottom: 20px;
+    padding: 8px;
+    outline: none;
+
+}
+
+textarea {
+    height: 40px;
+    resize: none;
+}
+
+.contact {
+    text-align: center;
+    margin: 10px 10px;
+}
+
+button {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+
+}
