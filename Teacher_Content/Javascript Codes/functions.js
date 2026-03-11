@@ -63,9 +63,9 @@ printHello();
 
 let countvowels = (str)=>{
     let count =0;
-    let char = str[i].toLowerCase();
-    for(let i =0;i<str.length();i++){
-        if(char ==='a' || char ==="e" || char ==="i" ||char ==="o" || char==="u"){
+    let char = str.toLowerCase();
+    for(let i =0;i<str.length;i++){
+        if(char[i] ==='a' || char[i] ==="e" || char[i] ==="i" ||char[i] ==="o" || char[i]==="u"){
             count++;
         }
     }

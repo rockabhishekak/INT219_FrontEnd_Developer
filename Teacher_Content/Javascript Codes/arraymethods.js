@@ -71,4 +71,10 @@ console.log(arr1);
 // b) Remove "Amazon" and add "Razorpay"in its place
 // c) Add "Tesla" to the end of the array
 
-
+let arrr = ["Google","Facebook","Amazon","Apple","Microsoft","Netflix"];
+arrr.shift();
+console.log(arrr);
+arrr.splice(1,1,"Razorpay");
+console.log(arrr);
+arrr.push("Tesla");
+console.log(arrr);

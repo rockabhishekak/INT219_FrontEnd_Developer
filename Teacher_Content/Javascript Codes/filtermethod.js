@@ -15,6 +15,11 @@ console.log(arr); //original array is not changed
 //We are given array of marks of students. Filter out the marks of students 
 // that scored greater than 90 %.
 // marks =[97, 64, 32, 49, 99, 96, 86];
+let marks = [97,64,32,49,99,96,86];
+let goodmarks = marks.filter((val)=>{
+    return val>90;
+})
+console.log(goodmarks);
 
 
 

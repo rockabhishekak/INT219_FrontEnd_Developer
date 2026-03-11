@@ -26,4 +26,21 @@ console.log(max);
 //Use the reduce method to calculate the product of all numbers(means factorial) in
 //the array.
 
+let n = prompt("Enter the number");
+n = Number(n);
+let Arr = [];
+for(let i =1 ;i<=n;i++)
+{
+    Arr.push(i);
+}
+
+let summ = Arr.reduce((prer,curr) => {
+    return prer + curr;
+},0);
+
+let factorial = Arr.reduce((acc, cur)=>{
+    return acc*cur;
+},1);
+console.log(summ);
+console.log(factorial);
 
