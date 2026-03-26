@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+    1) Event Bulliing phase: Event moves up through parent elements(i.e. bubbling up)
+    2) Event Capturing (or) Event Phase: Event travels from top to bottom (i.e. trickling down)
+    3) Target Phase: Event reaches the actual element that was clicked.
+     -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #grandparent{
+            padding: 40px;
+            background-color: lightcoral;
+            border: 2px solid black;
+            text-align: center;
+            font-size: 24px;
+        }
+        #parent{
+            padding: 40px;
+            background-color: lightblue;
+            border: 2px solid black;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        #child{
+            padding: 12px 20px;
+            font-size: 18px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="grandparent">Grandparent
+        <div id="parent">Parent
+            <br><br>
+            <button id="child">Click Me</button>
+        </div>
+    </div>
+    <script src="eventpropogation.js"></script>
+</body>
+</html>
