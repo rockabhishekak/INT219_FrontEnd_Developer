@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Delegation Example</title>
+    <style>
+        #grandparent{
+            padding: 40px;
+            background-color: lightcoral;
+            border: 2px solid black;
+            text-align: center;
+            font-size: 24px;
+        }
+        #parent{
+            padding: 40px;
+            background-color: lightblue;
+            border: 2px solid black;
+            text-align: center;
+            font-size: 20px;
+        }
+        #child{
+            padding: 20px;
+            background-color: lightgreen;
+            border: 2px solid black;
+            text-align: center;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div id="grandparent">Grandparent
+        <div id="parent">Parent
+            <br><br>
+            <button id="child">Click Me</button>
+        </div>
+    </div>
+    <script src="eventdelegation1.js"></script>
+</body>
+</html>
