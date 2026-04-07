@@ -45,3 +45,25 @@ const karan2 = {
 };
 karan2._proto_ = employee1;
 karan2.calcTax(); // tax rate is 20% because karan2 has its own method calcTax, it will use that instead of prototype's method.
+
+
+// Prototye chain: If a property or method is not found in the object,
+// Js looks for it in the prototype, and so on until it reaches the end of the chain (null).
+let animal = {
+    eats: true,
+};
+let dog = {
+    barks: true
+};
+let puppy = {
+    cute: true
+};
+puppy._proto_ = dog; // set prototype
+dog._proto_ = animal; // set prototype
+console.log(dog.eats); // true, inherited from animal
+console.log(dog.barks); // true, own property
+console.log(puppy.cute); // true, own property
+console.log(puppy.barks); // true, inherited from dog
+console.log(puppy.eats); // true, inherited from animal through dog
+
+// Chain:- puppy --> dog --> animal --> null
