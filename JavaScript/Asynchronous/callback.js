@@ -118,3 +118,9 @@ getData(1)
         console.error(error);
     });
 
+// If a promise is rejected , the executio jumps to .catch() and remaining
+// .then() methods block are skipped unless the error is handled inside the chain.
+
+// if the chain gets long, you can also use async/await for even cleaner code.
+
+
